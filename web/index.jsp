@@ -41,8 +41,8 @@
 </head>
 <body>
 <form>
-    用户名：<input type="text" name="username" id="username"><br/>
-    密&nbsp;&nbsp;&nbsp;码：<input type="text" name="password" id="password"><br/>
+    用户名：<label for="username"></label><input type="text" name="username" id="username"><br/>
+    密&nbsp;&nbsp;&nbsp;码：<label for="password"></label><input type="text" name="password" id="password"><br/>
     <input type="button" value="测试Json交互" onclick="testJson()">
 </form>
 </body>
